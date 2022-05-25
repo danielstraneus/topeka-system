@@ -1,0 +1,152 @@
+.links {
+  color: white;
+  padding: 50px 20px 20px 20px;
+}
+
+.Nav-bar {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  z-index: -8;
+  --animate-duration: 0.3s;
+  border-bottom: 3px solid rgb(20, 20, 18);
+  padding: 0px 20px;
+  background-color: var(--main-bg-color);
+  color: rgb(20, 20, 18);
+}
+
+.icon-cross {
+  font-size: 1.3rem;
+  color: rgb(20, 20, 18);
+
+  transform: rotate(180deg);
+  animation: cross-roller 1.4s cubic-bezier(0.5, 1.7, 0.5, 1);
+}
+.icon-cross:hover {
+  color: rgb(210, 195, 61);
+}
+@keyframes cross-roller {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.Nav-h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.Nav-open {
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.Nav-open:hover {
+  font-size: 1.3rem;
+  margin-top: 3px;
+  font-weight: 600;
+  border-bottom: 3px solid transparent;
+  color: rgb(210, 195, 61);
+}
+.Nav-close {
+  font-size: 1.3rem;
+  border: none;
+  background-color: transparent;
+  z-index: 2;
+  cursor: pointer;
+  color: rgb(20, 20, 18);
+}
+.Nav-close:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(210, 195, 61);
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  padding: 4px 0px 0px 0px;
+  background: var(--main-bg-color);
+  color: rgb(20, 20, 18);
+  border-bottom: 3px solid black;
+  overflow-x: hidden;
+  transition: 0.3s linear;
+}
+
+.p-link {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(20, 20, 18);
+  font-weight: 600;
+  margin-right: 10px;
+}
+a:hover {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(210, 195, 61);
+}
+
+.p-link:hover {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.nav-links {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .icon2 {
+    animation: nav-spin infinite 10s linear;
+  }
+  .icon-shadow {
+    animation: nav-spin-reverse infinite 10s linear;
+  }
+  .icon-shadow2 {
+    animation: nav-spin-reverse infinite 10s linear;
+  }
+}
+
+@keyframes nav-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes nav-spin-reverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

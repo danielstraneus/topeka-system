@@ -1,0 +1,156 @@
+.battle-hamster-item {
+  border: 3px solid rgb(20, 20, 18);
+  height: 250px;
+  width: 200px;
+  font-size: 30px;
+  text-align: end;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.winner {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 28px;
+  margin-bottom: -52px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0px;
+  color: rgb(20, 20, 18);
+}
+
+.pentagram-left {
+  position: absolute;
+  display: inline-block;
+  margin-top: -9px;
+  margin-left: -60px;
+  width: 50px;
+  height: 50px;
+  opacity: 0.7;
+  animation: nav-spin 2s ease-out;
+}
+.pentagram-right {
+  position: absolute;
+  display: inline-block;
+  margin-top: -9px;
+  width: 50px;
+  height: 50px;
+  opacity: 0.7;
+  margin-left: 10px;
+  animation: nav-spin 2s ease-out;
+}
+
+.sulfur {
+  padding-top: 10px;
+  width: 50px;
+  height: 50px;
+  opacity: 0.7;
+}
+
+.sulfur-text {
+  padding-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0px;
+  color: rgb(20, 20, 18);
+}
+
+@keyframes nav-spin {
+  from {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.battle-img {
+  position: relative;
+  width: 200px;
+  height: 215px;
+  border-radius: 0px;
+  /* margin-bottom: -158px; */
+  transition: 0.3s ease-in-out;
+  filter: grayscale(100%) invert(100%) brightness(70%) contrast(300%);
+  border-bottom: 3px solid white;
+  z-index: 0;
+}
+.battle-img:hover {
+  filter: grayscale(100%) invert(1%) brightness(70%) contrast(300%);
+  border-bottom: 3px solid black;
+}
+
+.battle-img::before {
+  content: "image-url is probably not containing an actual image, please try again.";
+  font-size: 1rem;
+  padding: 20px 10px 0px 10px;
+  width: 92%;
+  height: 199px;
+  background-color: #ccc;
+  text-align: center;
+  position: fixed;
+  top: 105px;
+  left: -2px;
+  padding-top: -50px;
+}
+
+.battle-hamster-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  height: 280px;
+}
+.battle-vote-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.battle-vote-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+  font-weight: 600;
+  transition: 0.3s linear;
+}
+.vote-buttons {
+  padding: 10px;
+  height: 60px;
+}
+.vote-button {
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 100px;
+  height: 30px;
+  margin: 0px 10px;
+}
+.new-game-button {
+  font-weight: 600;
+  margin-top: 80px;
+  margin-bottom: 25.5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 100px;
+  height: 50px;
+}
+
+.battle-hamster-name {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 15px;
+  margin-top: 120px;
+}
+.battle-hamster-info {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 0px;
+  margin-top: -64px;
+  cursor: default;
+}
