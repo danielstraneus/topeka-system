@@ -7,7 +7,7 @@ import { fixUrl } from "../utils";
 import { fixImg } from "../utils";
 import Hamster from "../interface";
 import Pentagram from "./occultism.svg";
-import Sulfur from "./black_sulfur_symbol.svg";
+import Sulfur from "./Black_sulfur_symbol.svg";
 
 const Battle = () => {
   const [leftHamster, setLeftHamster] = useState<null | Hamster[]>(null);
