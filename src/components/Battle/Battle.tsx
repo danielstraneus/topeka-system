@@ -185,7 +185,7 @@ const Battle = () => {
                 style={{ opacity: revOpacity }}
                 className="battle-hamster-info"
               >
-                Losses: {leftDefeats}
+                Defeats: {leftDefeats}
               </div>
               <div
                 style={{ opacity: revOpacity }}
