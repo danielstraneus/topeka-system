@@ -151,6 +151,7 @@ input {
   letter-spacing: 0px;
   margin: 5px 0px;
   padding-left: 3px;
+  white-space: nowrap;
 }
 .form-message-success {
   font-size: 0.8rem;
@@ -158,6 +159,7 @@ input {
   letter-spacing: 0px;
   margin: 5px 0px;
   padding-left: 3px;
+  white-space: nowrap;
 }
 .input-div {
   display: flex;
