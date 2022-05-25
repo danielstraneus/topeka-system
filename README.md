@@ -4,16 +4,16 @@
 
 #### Content:
 
-A fullstack SPA utilizing Express js for the backend, Google's Firestore for the database and React with Typescript for the front-end.
+A fullstack SPA utilizing Node js and Express for the backend, Google's Firestore for the database and React with Typescript for the front-end.
 
-The app begins on the landing page where the current supreme leader among the occult hamsters is being displayed. If several hamsters are splitting the top spot with the same high score (wins - losses) a random one among these will be displayed.
+The app begins on the landing page where the current supreme leader among the occult hamsters is being displayed. If several hamsters are sharing the top spot with the same high score (wins - losses) a random one among these hamsters will be displayed.
 
-In the app you can also navigate over the battle-view where 2 random occult hamsters from the database are being displayed. Here you'll have the option to vote on your favorite occult hamster, see their current amount of wins, losses and games, aswell as initiate a new match and repeat the whole process again.
+In the app you can also navigate over the battle-view where two random occult hamsters from the database are being displayed. Here you'll have the option to vote on your favorite occult hamster, see their current amount of wins, losses and games, aswell as initiate a new match and repeat the whole process over again.
 
 There's also a gallery where all current hamsters in the database are being displayed (using CSS grid). Here you can click on every hamster to get additional info such as age, favorite food + more. In this additional info view you'll also have the option to delete the selected hamster.
 
-In the gallery view there's also a form where you can add new hamsters to the gallery.
+In the gallery view there's also a form where you can add new hamsters to the gallery by typing in name, age, diet, interests and a image url. The form uses validation for the inputs and adding a new hamster to the database is only possible if all conditions are met.
 
-on top of this there's an occult handbook included in a separate view in the app where you can educate yourself on all things occult.<br>
+on top of all this there's an occult handbook included in a separate view in the app where you can educate yourself on all things occult.<br><br>
 
 _Explore your light and celebrate your darkness._
