@@ -1,10 +1,8 @@
-## Abbey Park
+# Abbey Park
 
 ### Occult Hamster Society
 
-<br>
-
-##### Content:
+#### Content:
 
 A fullstack SPA utilizing Express js for the backend, Google's Firestore for the database and React with Typescript for the front-end.
 
