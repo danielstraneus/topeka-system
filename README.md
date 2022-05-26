@@ -1,6 +1,6 @@
-# Abbey Park
+# ABBEY PARK
 
-# _Occult Hamster Society_
+## _Occult Hamster Society_
 
 <br>
 
@@ -20,4 +20,4 @@ on top of all this there's an occult handbook section included in a separate vie
 
 _Explore your light and celebrate your darkness._
 
-created by [rev x](https://danielstraneus.github.io/home/),powered by mountain dew.
+created by [rev x.](https://danielstraneus.github.io/home/)
