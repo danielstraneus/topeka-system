@@ -1,8 +1,6 @@
 # Abbey Park
 
-### _Occult Hamster Society_
-
-[created by rev x. powered by mountain dew](https://danielstraneus.github.io/home/)
+# _Occult Hamster Society_
 
 <br>
 
@@ -21,3 +19,5 @@ In the gallery view there's also a form where you can add new occult members to 
 on top of all this there's an occult handbook section included in a separate view in the app where you can educate yourself on all things occult.<br><br>
 
 _Explore your light and celebrate your darkness._
+
+created by [rev x](https://danielstraneus.github.io/home/),powered by mountain dew.
