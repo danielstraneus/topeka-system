@@ -1,6 +1,4 @@
-# ABBEY PARK
-
-## _Occult Hamster Society_
+# ABBEY PARK - _Occult Hamster Society_
 
 <br>
 
