@@ -2,9 +2,11 @@
 
 ### _Occult Hamster Society_
 
+[created by rev x. powered by mountain dew](https://danielstraneus.github.io/home/)
+
 <br>
 
-### Content:
+## Content:
 
 A fullstack SPA utilizing Node js, Express and Google's Firestore for the backend and React with Typescript for the frontend.
 
