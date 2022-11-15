@@ -120,7 +120,9 @@ img::before {
 .dead-hamster {
   display: block;
   margin: auto;
-  font-size: 5.5rem;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  animation: icon-roller 4s;
 }
 
 .rip {

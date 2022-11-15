@@ -1,6 +1,6 @@
 :root {
-  --main-bg-color: rgb(152, 138, 124);
-  --main-color: rgb(20, 20, 18);
+  --main-bg-color: rgb(255, 255, 255);
+  --main-color: rgb(255, 0, 0);
   --main-hover: rgb(210, 195, 61);
 }
 
@@ -20,13 +20,21 @@ body {
 }
 
 button {
-  background-color: var(--main-bg-color);
-  color: var(--main-color);
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid darkgray;
+  border-bottom: 2px solid grey;
+  color: black;
+  background-color: rgba(0, 255, 0, 0.3);
   font-weight: bold;
 }
-button:hover {
+
+button:focus {
+  border: 2px solid lime;
+}
+button:enabled:hover {
+  background-color: rgba(0, 255, 0, 0.6);
   cursor: pointer;
-  color: var(--main-hover);
 }
 
 code {

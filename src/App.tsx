@@ -10,11 +10,10 @@ function App() {
   return (
     <div className="app">
       <header>
-        <nav>
+        {/* <nav>
           <Navbar2></Navbar2>
-          {/* <NavLink to="/"> Hem </NavLink>
-          <NavLink to="/gallery"> galleri </NavLink> */}
-        </nav>
+
+        </nav> */}
       </header>
       <main>
         <Routes>
