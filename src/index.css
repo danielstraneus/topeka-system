@@ -50,6 +50,14 @@ button {
   cursor: pointer;
 }
 
+input:autofill {
+  background-color: white;
+}
+
+input:-webkit-autofill {
+  background-color: white;
+}
+
 button:focus {
   border: 2px solid lime;
 }
