@@ -146,6 +146,8 @@ input {
   border-right: 2px solid darkgray;
   border-bottom: 2px solid grey;
   background-color: var(--main-bg-color);
+  -webkit-appearance: none;
+  border-radius: 0px;
 }
 textarea {
   font-family: arial;
@@ -162,6 +164,8 @@ textarea {
   resize: none;
   background-color: var(--main-bg-color);
   white-space: normal;
+  -webkit-appearance: none;
+  border-radius: 0px;
 }
 
 ::placeholder {
@@ -289,12 +293,10 @@ input:focus {
   display: flex;
   font-size: 1rem;
   text-align: start;
-  border-radius: 0px;
   padding: 5px 10px;
 }
 .msg {
   font-family: Helvetica, sans-serif, Helvetica, sans-serif;
-  border-radius: 0px;
   letter-spacing: 0px;
   display: flex;
   font-size: 1rem;
