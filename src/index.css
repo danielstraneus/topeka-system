@@ -30,17 +30,17 @@ button {
 }
 
 .delete-button {
-  font-size: 0.4em;
+  font-size: 12px;
   margin-right: 8px;
-  border-top: 2px solid;
   border: 2px solid black;
   color: black;
   background-color: white;
   font-weight: bold;
-  width: 52px;
-  text-align: start;
+  width: 50px;
+  text-align: center;
   height: 25px;
   opacity: 0.2;
+  -webkit-appearance: none;
 }
 .delete-button:enabled:hover {
   background-color: rgba(255, 0, 0, 0.3);
