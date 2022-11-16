@@ -3,8 +3,8 @@ import { useState } from "react";
 import { fixImg } from "./utils";
 import { fixUrl } from "./utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBroadcastTower } from "@fortawesome/free-solid-svg-icons";
-import { faTowerCell } from "@fortawesome/free-solid-svg-icons";
+
+import { faThumbTack } from "@fortawesome/free-solid-svg-icons";
 
 interface Props {
   hamster: Hamster;
@@ -28,15 +28,15 @@ const HamsterItem = ({ hamster }: Props) => {
     console.log(fixUrl("/hamsters" + hamster.id));
   }
 
-  setTimeout(() => {
-    setOpacity(!isOpacity);
-    setAlive(!isAlive);
-    setDead(!isDead);
-  }, 30000);
+  // setTimeout(() => {
+  //   setOpacity(!isOpacity);
+  //   setAlive(!isAlive);
+  //   setDead(!isDead);
+  // }, 30000);
 
-  setTimeout(() => {
-    deleteHamster();
-  }, 40000);
+  // setTimeout(() => {
+  //   deleteHamster();
+  // }, 40000);
 
   return (
     // <div>
@@ -52,7 +52,7 @@ const HamsterItem = ({ hamster }: Props) => {
               icon={faBroadcastTower}
               className="death-icon-left"
             /> */}
-            <FontAwesomeIcon icon={faTowerCell} className="dead-hamster" />
+            <FontAwesomeIcon icon={faThumbTack} className="dead-hamster" />
             {/* <FontAwesomeIcon
               icon={faBroadcastTower}
               className="death-icon-right"
@@ -61,8 +61,19 @@ const HamsterItem = ({ hamster }: Props) => {
         </div>
       ) : (
         <div>
-          <div className="msg-name">{hamster.name}</div>
-          <div className="msg">{hamster.loves}</div>
+          <div className="msg-box">
+            <div className="msg-name">{hamster.name}</div>
+            <div className="msg">{hamster.loves}</div>
+          </div>
+          <button
+            className="delete-button"
+            onClick={() => {
+              deleteHamster();
+              setAlive(!isAlive);
+            }}
+          >
+            delete
+          </button>
         </div>
       )}
     </div>

@@ -2,7 +2,7 @@ import "./Home.css";
 // import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faBroadcastTower } from "@fortawesome/free-solid-svg-icons";
+import { faThumbTack } from "@fortawesome/free-solid-svg-icons";
 import "animate.css";
 import SupremeLeader from "../SupremeLeader/SupremeLeader";
 import Gallery from "../Gallery/Gallery";
@@ -11,10 +11,10 @@ const Home = () => {
   return (
     <div className="home">
       <h1 className="header-title animate__animated animate__fadeIn animate__slower animate__delay-3s">
-        Waystar FM
+        Topeka system
       </h1>
       <h2 className="sub-title animate__animated animate__fadeIn animate__slower animate__delay-3s">
-        public broadcasting service
+        public bulletin board service
       </h2>
       <div className="header-link-div animate__animated animate__fadeIn animate__slower animate__delay-3s">
         <a
@@ -25,18 +25,18 @@ const Home = () => {
         </a>
       </div>
 
-      <div className="title-box animate__animated animate__flipOutY animate__slow animate__delay-2s">
-        <div className="animate__animated animate__rotateInUpLeft">
-          <FontAwesomeIcon icon={faBroadcastTower} className="icon-mountain" />
+      <div className="title-box animate__animated animate__flipOutX animate__slow animate__delay-2s">
+        <div className="animate__animated animate__rotateIn">
+          <FontAwesomeIcon icon={faThumbTack} className="icon-mountain" />
         </div>
-        <h1 className="animate__animated animate__rotateInDownLeft home-title">
-          Waystar FM
+        <h1 className="animate__animated animate__slideInLeft home-title">
+          Topeka system
         </h1>
-        <p className="animate__animated animate__rotateInUpRight home-p">
-          public broadcasting
+        <p className="animate__animated animate__slideInUp home-p">
+          public bulletin
         </p>
-        <p className="animate__animated animate__rotateInDownRight home-p">
-          service
+        <p className="animate__animated animate__fadeInDown home-p">
+          board service
         </p>
       </div>
       <div className="gallery">
