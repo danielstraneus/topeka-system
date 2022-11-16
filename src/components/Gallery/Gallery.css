@@ -171,7 +171,8 @@ textarea {
 
 button:disabled,
 button[disabled] {
-  color: grey;
+  background-color: white;
+
   opacity: 0.2;
 }
 button:disabled:hover,
