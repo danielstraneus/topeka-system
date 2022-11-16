@@ -31,13 +31,14 @@ button {
 
 .delete-button {
   font-size: 0.4em;
-  margin: 0px 9px;
+  margin-right: 8px;
   border-top: 2px solid;
   border: 2px solid black;
   color: black;
   background-color: white;
   font-weight: bold;
   width: 52px;
+  text-align: start;
   height: 25px;
   opacity: 0.2;
 }
