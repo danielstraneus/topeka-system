@@ -99,7 +99,6 @@ const Gallery = () => {
         </div>
         <div className="new-hamster-form">
           <div className="opacity-fields" style={{ opacity: opacity }}>
-            <h3 className="form-title">CBBS</h3>
             <div className="container-divider">
               <div className="form-left-container">
                 <div className="input-div">

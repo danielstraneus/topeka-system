@@ -15,10 +15,8 @@
 
 .new-hamster-form {
   border: 3px solid rgb(20, 20, 18);
-  height: 189px;
   width: 356px;
   padding: 10px;
-  margin: 0px 10px;
 }
 .left-box {
   display: none;
@@ -135,9 +133,8 @@
 }
 
 input {
-  margin: 2px;
   margin-bottom: 10px;
-  width: 346px;
+  width: 100%;
   height: 20px;
   font-weight: bold;
   outline: none;
@@ -152,9 +149,8 @@ input {
 textarea {
   font-family: arial;
   font-weight: bold;
-  margin: 2px;
   margin-bottom: 10px;
-  width: 346px;
+  width: 100%;
   height: 70px;
   outline: none;
   border-top: 2px solid black;
@@ -293,20 +289,22 @@ input:focus {
   display: flex;
   font-size: 1rem;
   text-align: start;
-  padding: 5px 10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
 }
 .msg {
   font-family: Helvetica, sans-serif, Helvetica, sans-serif;
   letter-spacing: 0px;
   display: flex;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: start;
   max-width: 358px;
-  padding: 0px 10px 10px;
+
   word-wrap: break-word;
 }
 .msg-box {
-  height: 74px;
+  height: 53px;
+  padding: 10px;
 }
 
 button {

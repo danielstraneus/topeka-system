@@ -30,10 +30,12 @@
 
 .header-link {
   color: rgb(20, 20, 18);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   border-bottom: none;
   margin-bottom: 20px;
-  letter-spacing: 0px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 0.9em;
 }
 /* .header-link:hover {
   text-decoration: none;
