@@ -50,7 +50,7 @@ button {
   cursor: pointer;
 }
 
-input:autofill {
+/* input:autofill {
   background-color: white;
   -webkit-text-fill-color: black;
   -webkit-box-shadow: 0 0 0px 1000px #fff inset;
@@ -62,7 +62,7 @@ input:-webkit-autofill:focus {
   background-color: white;
   -webkit-text-fill-color: black;
   -webkit-box-shadow: 0 0 0px 1000px #fff inset;
-}
+} */
 
 button:focus {
   border: 2px solid lime;

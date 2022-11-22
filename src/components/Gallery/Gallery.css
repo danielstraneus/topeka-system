@@ -3,7 +3,7 @@
   grid-template-columns: 383px;
   justify-content: center;
   column-gap: 20px;
-  row-gap: 20px;
+  row-gap: 15px;
   margin-top: 15px;
   max-height: 1460px;
   overflow: hidden;

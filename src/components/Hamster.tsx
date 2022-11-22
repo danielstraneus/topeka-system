@@ -5,6 +5,7 @@ import { fixUrl } from "./utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faThumbTack } from "@fortawesome/free-solid-svg-icons";
+import { faCross } from "@fortawesome/free-solid-svg-icons";
 
 interface Props {
   hamster: Hamster;
@@ -52,7 +53,7 @@ const HamsterItem = ({ hamster }: Props) => {
               icon={faBroadcastTower}
               className="death-icon-left"
             /> */}
-            <FontAwesomeIcon icon={faThumbTack} className="dead-hamster" />
+            <FontAwesomeIcon icon={faCross} className="dead-hamster" />
             {/* <FontAwesomeIcon
               icon={faBroadcastTower}
               className="death-icon-right"
